@@ -11,11 +11,11 @@ import pandas as pd
 import scipy
 import torch
 import yaml
-from lib import write_jsonl
 from retriever.retriever import Retriever, HybridRetriever, TriRetriever
 from tqdm import tqdm
 from vllm import LLM, SamplingParams
 from datasets import load_dataset
+
 
 CLASSIFIER_PROMPT = {
     "You are an classifier to classify the query into four levels.\n"
