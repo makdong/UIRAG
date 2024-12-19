@@ -1,5 +1,5 @@
 # Download en_wiki dump
-wget https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2 -P retriever
+# wget https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2 -P temp
 
 # Preprocess en_wiki dump
 python retriever/preprocess_wiki.py \
